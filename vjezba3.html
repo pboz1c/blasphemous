@@ -1,0 +1,122 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Likovi</title>
+<link href="https://fonts.cdnfonts.com/css/bad-boys" rel="stylesheet">
+<link rel="stylesheet" href="stil1.css"/>
+</head>
+<body class="pozadina">
+
+ <div class="container">
+    <h1>Informacije o likovima iz Cvstodije</h1>
+
+    <form id="character-form">
+        <fieldset>
+            <legend>Odaberi lika</legend>
+            <label for="character-select">Izaberi lika:</label>
+            <select id="character-select">
+                <option value="deogracias">Deogracias</option>
+                <option value="altasgracias">Altasgracias</option>
+                <option value="gemino">Gémino</option>
+                <option value="jocinero">Jocinero</option>
+            </select>
+			 <label for="age-input">Unesite vašu dob:</label>
+                <input type="number" id="age-input" name="age" placeholder="Unesite vašu dob">
+
+            <button type="button" id="show-info">Prikazi informacije</button>
+        </fieldset>
+    </form>
+
+    <!-- Mjesto za prikaz informacija o odabranom liku -->
+    <div id="deogracias-info" class="info-text">
+        <div class="info-container">
+            <div class="text">
+                <h2>Deogracias</h2>
+               <p	class="paragraf_2">Deogracias nosi pletenu	masku koja prekriva njegovo lice. Deogracias je ogroman, lako dvostruko ili triput viši od glavnog lika kada stoji uspravno, 
+					ali je miran učenjak, a ne borac. Njegovo ime je španjolska varijanta latinske fraze „Deo gratias“, što znači „Hvala Bogu“.  
+					Interakcija s Deograciasom otkriva mnogo informacija o povijesti Cvstodije. 
+					Povremeno služi kao podsjetnik igraču kada još uvijek ima zadatke koje mora obaviti prije nego što može napredovati.
+					Povremeni Putnik: Deogracias se uvijek čini prisutnim kako bi pružio pozadinske informacije i kontekst svaki put kada The Penitent One pobijedi nekog protivnika ili postigne značajan cilj, 
+					čak i ako nije očito kako je uspio doći tamo prije njega.</p>
+            </div>
+            <img src="npc/deogracias.jpg" alt="Deogracias" class="character-image">
+        </div>
+    </div>
+
+    <div id="altasgracias-info" class="info-text">
+        <div class="info-container">
+            <div class="text">
+                <h2>Altasgracias</h2>
+               <p	class="paragraf_2">Altasgracias  je Stvorenje koje je nastalo od tri žene koje nisu željele biti udate. Molile su Čudo za pomoć, i sve su se spojile u jedno te su stavljene unutar jaja napravljenog od kose. 
+					Altasgracias je nekada bila tri sestre koje su molile Čudo da izbjegnu prisilni brak. Čudo je ispunilo njihov zahtjev, ali jedno od lica očito nije zadovoljno svojim ishodom.
+					Jedno od lica Altasgracias ima zabrinut izraz u očima i povremeno bi nečujno vrištalo. Očito, ne podnosi svoju sudbinu dobro.
+					Žene su izrasle bradu kao dio svoje molbe da izbjegnu brak.
+					Srednje lice ima jedinstvene obrve, vjerojatno zbog toga što je njezino lice spojeno s licima drugih dviju žena.
+					Da biste razgovarali s Altasgracias, prvo morate ponuditi tri predmeta iz njezine prošlosti (Crni Tužni Vel, Razderanu Mladoženjinu Traku i Otopljene Zlatne Novčiće). To će uzrokovati da joj jaje izlegne, a ona će vam dati Jaje Deformiteta, koje je potrebno za dobivanje relikvije Tri Iskrivljena Jezika.
+					„Altasgracias“ potječe od španjolske fraze „altas gracias“, što znači „velike zahvalnosti“. Sestre su dobile svoj željeni ishod – izbjegle su brak, ali barem jedno od njih sada izgleda kao da bi učinila bilo što da se vrati na svoj prethodni život. </p>
+            </div>
+            <img src="npc/altasgracias.	png" alt="Altasgracias" class="character-image">
+        </div>
+    </div>
+
+    <div id="gemino-info" class="info-text">
+        <div class="info-container">
+            <div class="text">
+                <h2>Gemino</h2>
+                <p	class="paragraf_2">Njegovo tijelo je zarobljeno u metalnom zatvoru koji je prilagođen njegovom tijelu, a kako ubijate neprijatelje bez ispunjavanja njegove misije, njegovo tijelo postepeno postaje prekriveno drvetom na kojem je njegova statua vezana. No, to ga previše ne smeta.
+					Ne žali svoju sudbinu i čak kaže glavnom liku da mu hladnoća barem umanjuje bol.
+					Njegova misija uključuje ispunjavanje posljednje molbe, dopuštajući mu da osjeti toplinu prije smrti, donoseći malo ulja koje koriste časne sestre u Samostanu Naše Gospe Ožiljkastog Lica.
+					Géminova misija počinje čim uđete u istu prostoriju u kojoj je on, odnosno kad uđete u "Gdje Maslinova Drveća Uvenu". Pobijedivši jednog neprijatelja i vraćajući se Géminu, on će izgledati polumrtvo, a pobijedivši dva, bit će potpuno zakopan i misija će biti neizvodiva. Kasnija ažuriranja omogućit će vam da dobijete predmete alternativnim putem, no obično to znači da čim upoznate Gémina, sljedeći neprijatelj kojeg biste trebali pobijediti je Naša Gospa Ožiljkastog Lica,
+					a zatim uzeti ulje u prostoriji iza nje i vratiti se Géminu kako biste završili njegovu misiju.</p>
+            </div>
+            <img src="npc/gemino.jpg" alt="Gémino" class="character-image">
+        </div>
+    </div>
+
+    <div id="jocinero-info" class="info-text">
+        <div class="info-container">
+            <div class="text">
+                <h2>Jocinero</h2>
+                  <p	class="paragraf_2">bik iz kojeg se iznjedrio izgleda kao da je na slici raspolovljen, s unutarnjim organima i svi su potpuno vidljivi.
+					Vrlo ljubazan i uljudan prema glavnom liku, unatoč tome što je ogroman kerub natopljen goveđom krvlju.
+					Traži od vas da pronađete ostalu Djecu Mjesečine, zaključanu u kavezima diljem Cvstodije. Pronađite barem 20 i nagradit će vas relikvijom Linen of Golden Thread (Platno Zlatne Nitke),
+					koja daje imunitet na Besprijekorne Jame. Pronađite svih 38, i darovat će vam molitvu Campanillero to the Sons of the Aurora (Campanillero sinovima Aurora),
+					koja priziva Djecu Mjesečine da privremeno blokiraju napade usmjerene na glavnog lika.
+					Naši Anđeli Su Drugi: On je rođen od mjeseca i bika. Nekako. Ostala Djeca Mjesečine također su nekako stvorena iz njega.
+					Referenca: Jocinero je ime bika koji je 1862. godine ubio borca s bikovima Joséa Dámasa,
+					a scena njegovog rođenja referenca je na flamenco pjesmu La Luna y el Toro (Mjesec i Bik) skladatelja Carlosa Castellana.</p>
+            </div>
+            <img src="npc/jocinero.jpg" alt="Jocinero" class="character-image">
+        </div>
+    </div>
+</div>
+
+<script>
+    document.getElementById('show-info').addEventListener('click', function() {
+        // Sakrijemo sve sekcije likova
+        var sections = document.querySelectorAll('.info-text');
+        sections.forEach(function(section) {
+            section.style.display = 'none';
+        });
+
+        // Dobijemo odabrani lik
+        var selectedCharacter = document.getElementById('character-select').value;
+
+        // Prikazujemo samo sekciju koja odgovara odabranom liku
+        document.getElementById(selectedCharacter + '-info').style.display = 'block';
+    });
+</script>
+
+    <h2>
+	<nav class="navibar">
+		<ul> 
+			<li><a href="index.html">Blasphemous</a></li>
+		    <li><a href="vjezba4.html">2</a></li>
+			<li><a href="vjezba5.html">3</a></li>
+			<li><a href="vjezba6.html">neprijatelji</a></li>
+		</ul>
+	</nav>
+	</h2>
+</body>
+</html>

@@ -1,0 +1,253 @@
+@charset "utf-8";
+/* CSS Document */
+p {
+	color:#F1E5AC;
+	font-family:aladin;
+	font-size: 20px;
+	line-height:20px;
+	width: 600px;
+	padding: 5px;
+	}
+	
+.paragraf_2 {
+	color:#F1E5AC;
+	border-radius: 8px;
+	background-color:#5C4033
+}
+
+ol {
+	color:#F1E5AC;
+	font-family:aladin;
+	font-size: 20px;
+	line-height:20px;
+	width: 570px;
+	border-radius: 8px;
+	background-color:#5C4033
+}
+
+.frame {
+	background-color:#636363;
+	padding: 20px;
+	border-radius: 8px;
+	width: 700px;
+	margin: 20px auto;
+}
+
+h1 {
+	font-family: 'Bad Boys', sans-serif;
+	color:#FFD700;
+	font-size: 60px;
+	 text-shadow: 
+    -2px -2px 0 black,
+     2px -2px 0 black,
+    -2px  2px 0 black,
+     2px  2px 0 black;
+} 
+
+h1 {
+	 margin-left: 60px;
+}
+
+h2 {
+	font-family: 'Bad Boys', sans-serif;
+	color:#FFE993;
+	font-size: 30px;
+	 text-shadow: 
+    -2px -2px 0 black,
+     2px -2px 0 black,
+    -2px  2px 0 black,
+     2px  2px 0 black;
+} 
+.pozadina{ 
+	margin: 0;
+	min-height: 100vh;
+	background-image:url("pozadina/slika1.jpg");
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	box-sizing: border-box;
+	}
+.navibar body {
+    font-family: 'Bad Boys', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    background-color: #636363;
+    color: white;
+    overflow: hidden; 
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0; 
+    text-align: center; 
+}
+
+nav ul li {
+    display: inline-block; 
+    margin-right: 20px; 
+}
+
+nav ul li a {
+    color: #FFD700;
+    padding: 10px;
+    display: block; 
+    text-align: center; 
+}
+
+nav ul li a:hover {
+    background-color: #555;
+    border-radius: 5px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Bad Boys', sans-serif;
+    background-image:url("pozadina/slika1.jpg");
+	background-size: cover; 
+    background-position: center center;
+	background-repeat: no-repeat;
+	
+}
+
+h1, h2, h3 {
+    color: #ffcc00;
+}
+
+p {
+    line-height: 1.6;
+    margin-bottom: 20px;
+	color: #ffcc00;
+    margin: 0;
+	
+}
+
+
+.content {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+	
+}
+
+
+.amanecidas {
+    background-image:url("pozadina/POZ1.gif");
+    background-size: cover; 
+    background-position: center;
+	background-repeat: no-repeat;
+    padding: 20px;
+    margin-bottom: 40px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+	
+}
+
+.amanecidas h1 {
+    text-align: center;
+    color: #ffcc00;
+    font-size: 2em;
+}
+
+.amanecida-details ul {
+    list-style-type: none;
+    margin: 10px 0;
+	
+}
+
+.amanecida-details li {
+    margin: 10px 0;
+    font-weight: bold;
+    animation: fadeIn 2s ease-in-out;
+}
+
+
+.isidora {
+    background-image:url("pozadina/POZ2.gif");
+    background-size: cover;
+    background-position: center center;
+	 background-repeat: no-repeat;
+    padding: 20px;
+    margin-bottom: 40px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.isidora h1 {
+    text-align: center;
+    color: #f39c12;
+    font-size: 2em;
+}
+
+.isidora-details {
+    margin-top: 20px;
+    font-style: italic;
+}
+
+.isidora-details p {
+    font-weight: bold;
+    animation: fireEffect 3s infinite alternate;
+}
+
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes fireEffect {
+    0% {
+        color: #f39c12;
+    }
+    100% {
+        color: #e74c3c;
+    }
+}
+
+
+.content > .amanecidas > h1 {
+    color: #ffcc00;
+
+	
+}
+
+.isidora + .isidora-details p {
+    margin-top: 30px;
+    font-size: 1.1em;
+}
+
+#tema .okvir.izdvojeno {
+    border: 2px solid #d9534f;
+}
+
+.amanecidas > h2 {
+    font-size: 1.5em;
+    color: #ffcc00;
+    animation: fadeIn 3s ease-in-out;
+}
+
+
+.amanecida-details li:nth-child(odd) {
+    color: #ffcc00;
+	font-size: 13px;
+	font-family: Arial, sans-serif;
+}
+
+.amanecida-details li:nth-child(even) {
+	font-family: Arial, sans-serif;
+	font-size: 13px;
+    color: #ffe57f
+	
+}
